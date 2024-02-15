@@ -1,0 +1,307 @@
+/* Reset de estilos */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.all-category h3 {
+  color: black;
+}
+
+.content {
+  flex: 1;
+}
+
+.content_card {
+  display: flex;
+  flex-flow: wrap;
+  height: 59vh;
+
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 12vh;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: end;
+
+}
+
+/* Header */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.cat-heading {
+  color: #fff;
+}
+
+/* Hero Slider */
+.hero-slider {
+  background-color: #f9f9f9;
+}
+
+@media (min-width: 576px) {
+
+  .col-sm-12.mb-4,
+  .col-md-3 {
+    padding: 0;
+  }
+}
+
+
+
+.card h3 {
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  background-color: #ff8c00;
+  width: 100%;
+  font-weight: bold;
+}
+
+.card {
+  width: 250px;
+  border-radius: 10px 0px 2px 2px;
+  box-shadow: 2px 3px 3px 3px rgba(3, 3, 3, 0.685);
+  margin: 0px;
+  color: black;
+  height: 150vh;
+}
+
+.card-body {
+  padding-bottom: 2px !important;
+  padding-top: 10px !important;
+}
+
+.card p {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.header.shop a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.header.shop a:hover {
+  text-decoration: underline;
+  background: #ff8c00;
+}
+
+.menu-area {
+  display: flex;
+}
+
+
+/*===============*/
+
+:root {
+  --green: #60ba00;
+  --dark-text: hsl(0, 0%, 13%);
+  --grey-text: hsl(0, 0%, 29%);
+  --light-grey-text: hsl(0, 0%, 45%);
+  --very-light-text: hsl(0, 0%, 86%);
+}
+
+/* 
+  -------------------------
+          GENERAL
+  -------------------------
+  */
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+.product-card {
+  width: 200px;
+  min-width: 200px;
+  height: 320px;
+  /* Defina a altura desejada para todos os cartões */
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px;
+  padding: 12px 20px;
+  padding-top: 0px;
+  box-shadow: 2px 3px 3px 3px rgba(3, 3, 3, 0.685);
+  display: flex;
+  flex-flow: column;
+}
+
+
+.main {
+  flex: 1;
+}
+
+.main img {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+  /* Altura fixa */
+  object-fit: cover;
+  /* Se quiser manter a proporção da imagem */
+}
+
+.main .price {
+  width: 60px;
+  height: 40px;
+  background-color: #ff8c00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: -40px;
+  margin-left: -10px;
+  margin-bottom: 20px;
+  z-index: 100;
+  position: relative;
+}
+
+.main h2 {
+  color: var(--dark-text);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.main h3 {
+  font-size: 1.3rem;
+  padding: 5px 0px;
+  font-weight: 500;
+  color: var(--green);
+}
+
+.main .price {
+  font-size: 18px;
+}
+
+/* 
+  -------------------------
+          BUTTONS
+  -------------------------
+  
+*/
+
+
+button.buy {
+  width: 60%;
+  height: 40px;
+  font-size: 16px;
+  background-color: #ff8c00;
+  border: none;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-top: auto;
+  min-width: 22px;
+
+}
+
+.btn {
+  margin-top: auto;
+  /* Empurra o botão para o final do contêiner pai */
+}
+
+.cont-flex {
+  display: flex;
+  flex-flow: column;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.cont-flex a {
+  font-size: 1.2em;
+}
+
+.menu-1 {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(3, 3, 3, 0.685);
+}
+
+/* Oculta o dropdown por padrão */
+.dropdown-menu {
+  display: none;
+}
+
+
+/* Estilo do dropdown */
+.dropdown-menu {
+  background-color: #333; /* Cor de fundo */
+  border: 1px solid #ccc; /* Cor da borda */
+  border-radius: 4px; /* Borda arredondada */
+  padding: 10px 0; /* Espaçamento interno */
+  left: auto; /* Remove a definição de 'left' */
+  right: 0; /* Define 'right' para 0 para alinhar à direita */
+}
+
+/* Estilo dos itens do dropdown */
+.dropdown-menu li {
+  padding: 5px 20px; /* Espaçamento interno dos itens */
+  color: #333; /* Cor do texto */
+}
+
+/* Animação do dropdown */
+.dropdown-menu {
+  transform-origin: right top; /* Define a origem da transformação */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  animation: fadeInRightToLeft 0.1s ease-out; /* Adiciona a animação de direita para esquerda */
+}
+
+/* Definição da animação */
+@keyframes fadeInRightToLeft {
+  from {
+    transform: scaleX(0); /* Inicia com escala 0 no eixo X */
+  }
+  to {
+    transform: scaleX(1); /* Finaliza com escala 1 no eixo X */
+  }
+}
+
+
+

@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+.cont_top {
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.content {
+	flex: 1;
+}
+
+.content_card {
+	display: flex;
+	flex-flow: wrap;
+	height: 59vh;
+
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	height: 12vh;
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: end;
+
+}
+
+/* Header */
+.header {
+	background-color: #333;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.cat-heading {
+	color: #fff;
+}
+
+/* Hero Slider */
+.hero-slider {
+	background-color: #f9f9f9;
+}
+
+@media (min-width: 576px) {
+
+	.col-sm-12.mb-4,
+	.col-md-3 {
+		padding: 0;
+	}
+}
+
+
+
+.card h3 {
+	color: rgb(255, 255, 255);
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	background-color: #ff8c00;
+	width: 100%;
+	font-weight: bold;
+}
+
+.card {
+	width: 250px;
+	border-radius: 10px 0px 2px 2px;
+	box-shadow: 2px 3px 3px 3px rgba(3, 3, 3, 0.685);
+	margin: 0px;
+	color: black;
+	height: 150vh;
+}
+
+.card-body {
+	padding-bottom: 2px !important;
+	padding-top: 10px !important;
+}
+
+.card p {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.header.shop a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.header.shop a:hover {
+	text-decoration: underline;
+	background: #ff8c00;
+}
+
+.menu-area {
+	display: flex;
+}
+
+
+/*===============*/
+
+:root {
+	--green: #60ba00;
+	--dark-text: hsl(0, 0%, 13%);
+	--grey-text: hsl(0, 0%, 29%);
+	--light-grey-text: hsl(0, 0%, 45%);
+	--very-light-text: hsl(0, 0%, 86%);
+}
+
+
+.badge {
+	background-color: #4A4A4A !important;
+	color: #FFF;
+
+}
+
+
+
+
+.btn-secondary {
+	background-color: #878787 !important;
+	font-size: 1.3em;
+}
+
+.btn-secondary:hover {
+	background-color: #616161 !important;
+}
+
+
+.registro {
+	font-size: 15px;
+	margin-right: 5px;
+}
+
+.btn {
+	font-size: 1.8em !important;
+}
+
+.form-control-sm {
+	font-size: 1.7em !important;
+}
+
+.botao-novo {
+	margin-bottom: 35px;
+
+}
+
+
+.paginacao {
+	margin-top: 25px;
+}
+
+
+.mensagem-sucesso {
+	font-size: 16px;
+	color: #4c7438;
+	text-align: center;
+}
+
+
+.mensagem-erro {
+	font-size: 16px;
+	color: #a94659;
+	text-align: center;
+}
+
+.tabelas {
+	font-size: 14px;
+}
+
+
+.quadro {
+	width: 250px;
+}
+
+.quadro .btn-success {
+	width: 60px;
+	color: white;
+}
+
+.quadro .btn-danger {
+	width: 60px;
+	color: white;
+}
+
+.quadro .btn-success:hover {
+
+	color: #dedede;
+}
+
+.quadro .btn-danger:hover {
+
+	color: #dedede;
+}
+
+
+.totalpago {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-right: 55px;
+}
+
+
+
+.alertas {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+
+	font-size: 1.5em !important;
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+
+.modal-content {
+    height: auto !important;
+}
+
+.form-control {
+	font-weight: 400;
+	font-size: 1.5rem !important;
+}
+.modal-header h5{
+	font-size: 2.25rem !important;
+}
+
+.form-group label{
+	font-size: 1.25rem !important;
+}
+
+/* Oculta o dropdown por padrão */
+.dropdown-menu {
+	display: none;
+  }
+  
+  
+  /* Estilo do dropdown */
+  .dropdown-menu {
+	background-color: #333 !important; /* Cor de fundo */
+	border: 1px solid #ccc; /* Cor da borda */
+	border-radius: 4px; /* Borda arredondada */
+	padding: 10px 0; /* Espaçamento interno */
+	left: auto; /* Remove a definição de 'left' */
+	right: 0; /* Define 'right' para 0 para alinhar à direita */
+  }
+  
+  /* Estilo dos itens do dropdown */
+  .dropdown-menu li {
+	padding: 5px 20px; /* Espaçamento interno dos itens */
+	color: #333; /* Cor do texto */
+  }
+  
+  /* Animação do dropdown */
+  .dropdown-menu {
+	transform-origin: right top; /* Define a origem da transformação */
+  }
+  
+  .dropdown:hover .dropdown-menu {
+	display: block;
+	animation: fadeInRightToLeft 0.1s ease-out; /* Adiciona a animação de direita para esquerda */
+  }
+  
+  /* Definição da animação */
+  @keyframes fadeInRightToLeft {
+	from {
+	  transform: scaleX(0); /* Inicia com escala 0 no eixo X */
+	}
+	to {
+	  transform: scaleX(1); /* Finaliza com escala 1 no eixo X */
+	}
+  }
+  
+  .hero{
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 30PX;
+  }
